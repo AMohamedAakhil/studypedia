@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshil</title>
+    <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="previous-searches">
+                <h2>Previous Searches</h2>
+                <ul id="previous-searches-list"></ul>
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div class="main-content" id="main-content">
+                <div class="content-heading">
+                    <h1>Search Results</h1>
+                </div>
+                <form id="search-form">
+                    <input type="text" id="search-bar" placeholder="What concept do you want to learn today?">
+                    <button type="submit" id="submit-btn">Search</button>
+                </form>
+                <div id="result"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="study.js"></script>
+</body>
+</html>
