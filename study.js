@@ -16,7 +16,7 @@ async function getMessage(e) {
   const options = {
     method: 'POST',
     headers: {
-      'Authorization': 'Bearer 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',
+      'Authorization': 'Bearer PUT API KEY HERE',
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({
